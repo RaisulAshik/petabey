@@ -10,9 +10,15 @@
 </head>
 
 <body>
-    <h1 class="text-3xl text-red-400 ">
-        Hello Petabay
-    </h1>
+    <div class="container mx-auto w-full flex flex-col items-center justify-center bg-[#F5F5F5] max-w-screen-xl">
+        <div class="relative">
+            <div class="w-1/2">
+                <h1 class="text-4xl text-red-400 ">
+                    hi
+                </h1>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
