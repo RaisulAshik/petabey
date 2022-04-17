@@ -9,15 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
-<!-- height: 976px;
-width: 1440px;
-left: -1786px;
-top: 2806px;
-border-radius: 0px; -->
-
-
 <body class="">
-    <!-- <div class="h-screen flex flex-wrap max-w-screen-xl mx-auto justify-center items-center"> -->
     <div class="h-screen flex flex-wrap px-4 py-4 max-w-screen-lg justify-center mx-auto items-center">
         <div class="w-full md:w-1/2">
             <div class="text-left bg-[#e5e5e5] p-[4.5rem]">

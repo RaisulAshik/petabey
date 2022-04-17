@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\RecentHistoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +20,12 @@ Route::get('/', function () {
 });
 
 Route::get('login', [LoginController::class,'showLoginForm'])->name('admin-login');
+Route::post('login', [LoginController::class,'login']);
+Route::post('logout', [LoginController::class,'logout'])->name('admin-logout');
+
+Route::get('users', [UserController::class,'showAllUsers'])->name('admin-users');
+// Route::post('users', [UserController::class,'showAllUsers'])->name('admin-users');
+// Route::put('users', [UserController::class,'showAllUsers'])->name('admin-users');
+
+
+Route::get('consumption', [RecentHistoryController::class,'showAllHistory'])->name('all-history');
